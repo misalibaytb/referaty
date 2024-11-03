@@ -13,6 +13,85 @@ import ReferenceUfo from './reference/9b/ufo/index';
 import ReferenceFrantisekXaverSalda from './reference/9b/frantisek-xaver-salda/index';
 import ReferenceErikRemarque from './reference/9b/erik-remarque/index';
 import ReferenceTsunami from './reference/9b/tsunami/index';
+const ReferenceStyle = () => {
+  return <style>{`
+    .References {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                width: 100%;
+                height: 100%;
+                min-height: 100vh;
+                max-width: 100vw;
+            }
+            .Reference {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                width: 300px;
+                height: 350px;
+                margin: 10px;
+                border: 1px solid black;
+                cursor: pointer;
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+            .Reference:hover {
+                transform: scale(1.1);
+            }
+            .ReferenceTitle {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                width: 100%;
+                height: 50px;
+                font-size: 15px;
+                border: 1px solid black;
+            }
+            .ReferencePicture {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                width: auto;
+                height: 175px;
+                border: 1px solid black;
+            }
+            .ReferenceDescription {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                width: 100%;
+                height: 50px;
+                border: 1px solid black;
+            }
+            .ReferenceAuthor {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                width: 100%;
+                height: 100px;
+                border: 1px solid black;
+            }
+            `}</style>;
+}
 
 function Web() {
   return (
@@ -30,9 +109,9 @@ function Web() {
 
 
 
-        <Route path="/reference/9b/" element={<App9B />} />
-        <Route path="/reference/E1B/" element={<AppE1B />} />
-        <Route path="*" element={<App />} />
+        <Route path="/reference/9b/" element={<><App9B /> <ReferenceStyle /></>} />
+        <Route path="/reference/E1B/" element={<><AppE1B /> <ReferenceStyle /></>} />
+        <Route path="*" element={<> <App /> <ReferenceStyle /></>} />
       </Routes>
     </>
   );
