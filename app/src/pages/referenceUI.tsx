@@ -322,7 +322,8 @@ export default ({
             }
             .slideDiv {
                 min-width: 100%;
-                height: 100%;
+                height: 100vh;
+                max-width: 100vw;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: nowrap;
@@ -333,6 +334,7 @@ export default ({
             }
             .slide {
                 width: 100%;
+                max-width: 100vw;
                 height: 100%;
                 display: flex;
                 flex-direction: row;
