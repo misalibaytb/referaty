@@ -49,14 +49,6 @@
         cursor: pointer;
       }
   </style>
-  <script>
-    window.onpageshow = function(event) {
-      console.log(event, event.persisted, "onpageshow");
-      if (event.persisted) {
-        window.location.reload();
-      }
-    };
-  </script>
   <script type="module" crossorigin src="/assets/index.js"></script>
 </head>
 

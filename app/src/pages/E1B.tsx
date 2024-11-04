@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ReferenceSpanekImg from "../assets/image/Reference/spanek.png";
+import ReferenceBiblekImg from "../assets/image/e1b/bible.png";
 import { useNavigate } from "react-router-dom";
 
 export default function App() {
@@ -13,13 +13,13 @@ export default function App() {
     };
     return <div>
         <div className="References" id="References">
-            <div className="Reference" onClick={() => gotoReference("spanek")} >
+            <div className="Reference" onClick={() => gotoReference("bible")} >
                 <div className="ReferenceTitle">
-                    <h1>Spánek</h1>
+                    <h1>Bible</h1>
                 </div>
-                <img src={ReferenceSpanekImg} alt="Reference Picture" className="ReferencePicture" />
+                <img src={ReferenceBiblekImg} alt="Reference Picture" className="ReferencePicture" />
                 <div className="ReferenceAuthor">
-                    <p>Authors: Michal Líbal & Antonín Šulc</p>
+                    <p>Authors: Michal Líbal</p>
                 </div>
             </div>
         </div>

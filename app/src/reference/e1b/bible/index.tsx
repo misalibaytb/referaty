@@ -8,8 +8,6 @@ import Slide5 from "./slides/5";
 import Slide6 from "./slides/6";
 import Slide7 from "./slides/7";
 import Slide8 from "./slides/8";
-import Slide9 from "./slides/9";
-import Slide10 from "./slides/10";
 import ReferenceUI from "@/pages/referenceUI";
 
 export default () => {
@@ -21,9 +19,7 @@ export default () => {
         Slide5,
         Slide6,
         Slide7,
-        Slide8,
-        Slide9,
-        Slide10,
+        Slide8
     ]);
     
     return <>

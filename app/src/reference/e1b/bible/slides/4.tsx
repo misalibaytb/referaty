@@ -8,10 +8,15 @@ export default () => {
     };    
     return <div>
         <div className="slideContent">
-            <div className="slideContent__title"><span>Oficiální Zpráva Z Ameriky</span></div>
+            <div className="slideContent__title"><span>Starý zákon</span></div>
             <div className="slideContent__text">
-                    <p><span>V tomto roce bylo Americkou vládou vydáno oficiální prohlášení, že UFO existuje.</span></p>
-                    <p><a href="https://www.seznamzpravy.cz/clanek/zahranicni-mimozemstane-existuji-a-vlada-ma-dukazy-jaky-byl-cil-slyseni-o-ufo-234722">seznamzpravy.cz</a></p>
+                <ul>
+                    <li><span>Starší část Bible, původně napsaná v hebrejštině a aramejštině.</span></li>
+                    <li><span>Obsahuje Tóru, prorocké knihy a další spisy.</span></li>
+                    <li><span>Popisuje historii izraelského národa a jeho náboženské zvyklosti.</span></li>
+                    <li><span>Považován za závazný text pro judaismus, pro křesťany je přípravou na příchod Krista.</span></li>
+                    <li><span>Texty vznikaly během několika staletí.</span></li>
+                </ul>
                 <style>{`
                     .slideContent {
                         width: 100%;

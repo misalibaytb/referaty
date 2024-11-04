@@ -5,13 +5,15 @@ export default () => {
     
     return <div>
             <div className="slideContent">
-                <div className="slideContent__title"><span>Fermiho Paradox</span></div>
+            <div className="slideContent__title"><span>Nový zákon</span></div>
                 <div className="slideContent__text">
-                    <ul>
-                        <li><span>Fermiho Paradox Se zabívá otázkou: Kde všichni jsou?</span></li>
-                        <li><span>A proč to je Paradox?</span></li>
-                        <li><span className="revealClick">Protože vesmír je obrovský a je tu obrovská šance že někde existuje mimozemská civilizace</span></li>
-                    </ul>
+                <ul>
+                    <li><span>Soubor textů napsaný v řečtině, zaměřený na Ježíše Krista.</span></li>
+                    <li><span>Obsahuje čtyři evangelia, která popisují jeho život a učení.</span></li>
+                    <li><span>Dále zahrnuje Skutky apoštolů, apoštolské dopisy a knihu Zjevení.</span></li>
+                    <li><span>Křesťané považují Nový zákon za splnění a naplnění Starého zákona.</span></li>
+                    <li><span>Texty vznikly v prvních stoletích našeho letopočtu.</span></li>
+                </ul>
                 </div>
             </div>
             <style>{`

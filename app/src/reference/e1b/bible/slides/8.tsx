@@ -1,25 +1,18 @@
-import React, { useState } from "react";
-import { Redirect } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import VoyagerMp3 from "../assets/voyager.mp3";
 
 export default () => {
-    const imageClick = (e) => {
-        e.preventDefault();
-        e.target.classList.toggle("activeImg");
-    };   
-
     return <div>
         <div className="slideContent">
-            <div className="slideContent__title"><span>Velký Filter</span></div>
+            <div className="slideContent__title"><span>Děkuji za pozornost</span></div>
             <div className="slideContent__text">
-                <p><span>Velký filter je paradox.</span></p>
-                <p><span>Je to jaká si bariéra která nám může zabránit v tom abychom se vyvinuli do vyšších civilizací a nebo našli jiné civilizace.</span></p>
-                <p><span>Jak by to s ním mohlo být?</span></p>
+                <span>Zdroje:</span>
                 <ul>
-                    <li><span className="revealClick">Možná lidstvo je velmi vzácný případ a už jsme překonali velký filter</span></li>
-                    <li><span className="revealClick">Možná překonání velkého filtru není tak vzácné ale jsme první kterým se to podařilo</span></li>
-                    <li><span className="revealClick">Velký filter je ještě před námi</span></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Bible" target="_blank">Wikipedia - Bible</a></li>
+                    <li><a href="https://cs.wikipedia.org/wiki/Bible" target="_blank">Wikipedia - Bible</a></li>
+
                 </ul>
-                <p><span>Podle této škály jsme na stupnici 0,73</span></p>
+
             </div>
         </div>
         <style>{`

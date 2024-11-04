@@ -4,15 +4,18 @@ import App from './pages/index';
 import App9B from './pages/9B';
 import AppE1B from './pages/E1B';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import ReferenceSpanek from './reference/9b/spanek/index';
-import ReferenceViditelneSvetlo from './reference/9b/viditelne-svetlo/index';
-import ReferenceJohnLennon from './reference/9b/john-lennon/index';
-import ReferenceDiamant from './reference/9b/diamant/index';
-import ReferenceOsvetim from './reference/9b/osvetim/index';
-import ReferenceUfo from './reference/9b/ufo/index';
-import ReferenceFrantisekXaverSalda from './reference/9b/frantisek-xaver-salda/index';
-import ReferenceErikRemarque from './reference/9b/erik-remarque/index';
-import ReferenceTsunami from './reference/9b/tsunami/index';
+import ReferenceSpanek from './reference/9b/spanek';
+import ReferenceViditelneSvetlo from './reference/9b/viditelne-svetlo';
+import ReferenceJohnLennon from './reference/9b/john-lennon';
+import ReferenceDiamant from './reference/9b/diamant';
+import ReferenceOsvetim from './reference/9b/osvetim';
+import ReferenceUfo from './reference/9b/ufo';
+import ReferenceFrantisekXaverSalda from './reference/9b/frantisek-xaver-salda';
+import ReferenceErikRemarque from './reference/9b/erik-remarque';
+import ReferenceTsunami from './reference/9b/tsunami';
+
+import ReferenceBible from './reference/e1b/bible'
+
 const ReferenceStyle = () => {
   return <style>{`
     .References {
@@ -107,7 +110,7 @@ function Web() {
         <Route path="/reference/9b/tsunami/*" element={<ReferenceTsunami />} />
         <Route path="/reference/9b/erik-remarque/*" element={<ReferenceErikRemarque />} />
 
-
+        <Route path="/reference/E1B/bible/*" element={<ReferenceBible />} />
 
         <Route path="/reference/9b/" element={<><App9B /> <ReferenceStyle /></>} />
         <Route path="/reference/E1B/" element={<><AppE1B /> <ReferenceStyle /></>} />

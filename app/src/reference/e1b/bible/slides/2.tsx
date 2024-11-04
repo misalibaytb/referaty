@@ -1,18 +1,14 @@
-import React, { useState } from "react";
-import { Redirect } from "react-router-dom";
-
 export default () => {
     
-    return <div>
+    return (<div>
             <div className="slideContent">
-                <div className="slideContent__title"><span>Co si představit pod pojmem UFO?</span></div>
+                <div className="slideContent__title"><span>Co to je bible?</span></div>
                 <div className="slideContent__text">
-                    <p><span>Když se řekne ufo co se vám vybaví?</span></p>
+                    <p><span>Bible je soubor posvátných textů, které jsou klíčové pro:</span></p>
                     <ul>
-                        <li><span className="revealClick">Létající talíř</span></li>
-                        <li><span className="revealClick">Mimozemšťané</span></li>
-                        <li><span className="revealClick">Scifi filmy</span></li>
-                        <li><span className="revealClick">Neznámé létající objekty</span></li>
+                        <li><span>křesťanství</span></li>
+                        <li><span>judaismus</span></li>
+                        <li><span>a mnoho dalších</span></li>
                     </ul>
                 </div>
             </div>
@@ -39,6 +35,5 @@ export default () => {
                     text-align: left;
                 }
             `}</style>
-
-    </div>;
+    </div>);
 }

@@ -9,15 +9,15 @@ export default () => {
 
     return <div>
         <div className="slideContent">
-            <div className="slideContent__title"><span>Kardašova škála</span></div>
+            <div className="slideContent__title"><span>Překlady a vliv Bible</span></div>
             <div className="slideContent__text">
-                <p><span>Tato škála představuje typy civilizace a řadí se tam podle toho kolik energie spotřebují.</span></p>
                 <ul>
-                    <li><span className="revealClick">Typ 1 - Civilizace, která spotřebuje veškerou energii na své planetě</span></li>
-                    <li><span className="revealClick">Typ 2 - Civilizace, která spotřebuje veškerou energii ve své hvězdě</span></li>
-                    <li><span className="revealClick">Typ 3 - Civilizace, která spotřebuje veškerou energii ve své galaxii</span></li>
+                    <li><span>Bible byla přeložena do mnoha jazyků, což pomohlo šíření křesťanství.</span></li>
+                    <li><span>V češtině existuje několik překladů, jako je historická Bible kralická.</span></li>
+                    <li><span>Překlady zpřístupňují text současným čtenářům.</span></li>
+                    <li><span>Bible ovlivnila literaturu, umění, filozofii a právo.</span></li>
+                    <li><span>I dnes je inspirací pro miliony lidí.</span></li>
                 </ul>
-                <p><span>Podle této škály jsme na stupnici 0,73</span></p>
             </div>
         </div>
         <style>{`
