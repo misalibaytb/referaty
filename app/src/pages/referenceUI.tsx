@@ -248,7 +248,7 @@ export default ({
 
         </div>
         <div className="RenderAd" style={{ position: "fixed", bottom: 0, right: 0, zIndex: 1000, opacity: showMenu ? 1 : 0.35, paddingRight: 15 }}>
-            <p>Using refmis engine by <a href="https://michlip.eu" target="_blank">michlip.eu</a></p>
+            <p>Using refmis engine by misaliba from <a href="https://michlip.eu" target="_blank">michlip.eu</a></p>
         </div>
         <div className="Menu" style={{ opacity: showMenu ? 1 : 0 }}>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
